@@ -9,56 +9,33 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light bg-light fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">동캐릭터</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
-        aria-controls="offcanvasDarkNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar"
-        aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
-            Dark offcanvas
-          </h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-            aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </nav>
 
+  <nav id="navbar-example2" class="navbar bg-light px-3">
+    <a class="navbar-brand" href="#">동캐릭터</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#myCarousel">슬라이드</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#row row-cols-1 row-cols-md-4 g-16">캐릭터</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+          aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+    data-bs-smooth-scroll="true" class="scrollspy-example bg-light rounded-2" tabindex="0">
+  </div>
 
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -109,7 +86,8 @@
         <div class="container" _mstvisible="1">
           <div class="carousel-caption text-end" _mstvisible="2">
             <h1 _msthash="1219322" _msttexthash="76198174" _mstvisible="3">좋은 측정을 위해 한 번 더.</h1>
-            <p _msthash="1172145" _msttexthash="495541826" _mstvisible="3">이 회전 목마의 세 번째 슬라이드에 대한 일부 대표적인 자리 표시자 콘텐츠입니다.
+            <p _msthash="1172145" _msttexthash="495541826" _mstvisible="3">이 회전 목마의 세 번째 슬라이드에 대한 일부 대표적인 자리 표시자
+              콘텐츠입니다.
             </p>
             <p _mstvisible="3"><a class="btn btn-lg btn-primary" href="#" _msthash="1381367" _msttexthash="43568928"
                 _mstvisible="4">갤러리 찾아보기</a></p>
@@ -127,173 +105,218 @@
     </button>
   </div>
 
+  <nav class="text-center my-5">
+    <div class="container-fluid">
+      <span class="navbar-text">
+        마포구 동주민센터 창작 캐릭터
+      </span>
+    </div>
+  </nav>
+
+  <hr class="" />
 
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-4 g-16">
-      <div class="col my-5">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+    <div id="row row-cols-1 row-cols-md-4 g-16">
+      <div class="row row-cols-1 row-cols-md-4 g-16">
+        <div class="col my-5">
+          <div class="card h-100">
+            <img src="node_modules/img/공덕동_곰덕.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">공덕동 곰덕 송예솔</h5>
+              <p class="card-text">
+                힘든 일도 웃으면서 해결할 만큼 <br> 긍정적인 성격
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col my-5">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a short card.</p>
+        <div class="col my-5">
+          <div class="card h-100">
+            <img src="node_modules/img/도하_보보.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">도화동 도하 보보 안민주</h5>
+              <p class="card-text">마포구 도화동 동주민센터 캐릭터 <br>도하와 보보입니다.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col my-5">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
-            </p>
+        <div class="col my-5">
+          <div class="card h-100">
+            <img src="node_modules/img/도화동_도숭이.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">도화동 도숭이 손수연</h5>
+              <p class="card-text">
+                복사골에서 자란 아기 복숭아 도숭이. <br>겉모습은 아가의 모습이지만 도화동을 지키고있다.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col my-5">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+        <div class="col my-5">
+          <div class="card h-100">
+            <img src="node_modules/img/망원1동_먕먕이.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">망원1동 먕먕이 윤혜빈</h5>
+              <p class="card-text">
+                먕먕이는 사람들에게 많은 망원동을 소개하기위해 망원동 가이드로 오늘도 이곳저곳 돌아다닙니다.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+        <div class="col">
+          <div class="card h-100">
+            <img src="node_modules/img/망원2동_알망.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">망원2동 알망 강혜원</h5>
+              <p class="card-text">
+                멍하게 있는 것을 좋아해 어떤 생각을 하는지
+                예상 못하겠는 처진 눈을 가지고 있다.
+                세상 걱정 없어보이는 눈을 마주하고
+                복실복실한 털을 만지면 더할 나위 없는 치유가 된다.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+        <div class="col">
+          <div class="card h-100">
+            <img src="node_modules/img/상암동_상상수리.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">상암동 상상수리 박혜민</h5>
+              <p class="card-text">
+                활발하고 밝은 성격으로 노는 것을 제일 좋아해요. 기발한 상상력으로 만든 콘텐츠로 많은 사람들의 마음을 사로잡는 인플루언서입니다.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+        <div class="col">
+          <div class="card h-100">
+            <img src="node_modules/img/서강동_서호야.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">서강동 서호야 문정은</h5>
+              <p class="card-text">
+                무엇이든 보듬을 수 있는 따뜻한 성격을 가지고 있습니다.
+                식물 키우기를 좋아하고, 물멍을 즐깁니다.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+        <div class="col">
+          <div class="card h-100">
+            <img src="node_modules/img/성산1동_산이.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">성산1동 산이 정혜인</h5>
+              <p class="card-text">
+                #장난기 #에너지 #호기심 #독서왕 <br>#식물왕
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col my-5">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+        <div class="col my-5">
+          <div class="card h-100">
+            <img src="node_modules/img/성산2동_사니.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">성산2동 사니 최현수</h5>
+              <p class="card-text">
+                성산2동에 위치한 서울월드컵경기장은 그동안 상암동 소재로 잘 못 알려져 왔습니다.
+                이러한 오해를 바로잡고자, 월드컵경기장의 상징적인 요소인 축구공 형태와
+                붉은악마 뿔을 포인트로 성산2동 캐릭터 ‘사니’ 를 디자인했습니다.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col my-5">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+        <div class="col my-5">
+          <div class="card h-100">
+            <img src="node_modules/img/신수동_시니.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">신수동 시니 오승현</h5>
+              <p class="card-text">
+                신수동의 활기차고 따뜻한 이미지를 주기 위한
+                옐로우 색상과 물결의 형태를 가지고 있습니다.
+                물결과 하트 모양의 머리와 밝은 웃음을 전하는 입,
+                보는 사람까지 신나는 발랄한 몸짓을 가지고
+                있습니다.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col my-5">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+        <div class="col my-5">
+          <div class="card h-100">
+            <img src="node_modules/img/용강동_용강이.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">용강동 용강이 곽나경</h5>
+              <p class="card-text">
+                동글동글한 모습으로 순하고 착한용이지만 씩식하고 경의로운 마음을 가진 용감한 성격의 용강이 입니다.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col my-5">
-        <div class="card h-100">
-          <img src="https://cdn.pixabay.com/photo/2015/02/18/15/41/pancake-640869__340.jpg" class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+        <div class="col my-5">
+          <div class="card h-100">
+            <img src="node_modules/img/염리동_소꼼이.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">염리동 소꼼이 김영윤</h5>
+              <p class="card-text">
+                소꼼이는 소금의 옛우리말 소곰과 의태어 빼곰이 합쳐진 이름으로 건물사이 머리를 빼꼼내밀어 염리동을 곳곳을 보는것을 좋아합니다.
+              </p>
+            </div>
           </div>
         </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="node_modules/img/연남동_연보리.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">연남동 연보리 박지영</h5>
+              <p class="card-text">
+                소보루와 꽈배기를 귀엽게 캐릭터화하여 제작하였고 모자는 커피잔으로 대신하여 연남동의 카페와 베이커리 캐릭터라는점을 강조하였습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="node_modules/img/합정동_쩡이.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">합정동 쩡이 성지수</h5>
+              <p class="card-text">
+                다양한 사람들이 오고가는 환승역인 합정의 특징을 살려 활기찬 성격을 가지고 있으며 합정동의 이곳저곳을 돌아다니면서 행복을 전파한다.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="node_modules/img/아현동_양대복.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">아현동 아현뉴캐릭 양대복</h5>
+              <p class="card-text">
+                #산동네 #달동네 #뉴타운 #아이무덤 #슬럼화 #환골탈태 #미래 #밝은 #회색 #칙칙한
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="node_modules/img/서교동_김진섭.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">서교동 김진섭</h5>
+              <p class="card-text">
+                서교동은 '서쪽의 다리'라는 뜻에서 유래된 이름입니다.
+                서쪽과 남쪽, 그리고 북쪽을 잇는 하나의 교량 역할을 해왔음을 의미합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+
+    <nav class="text-center my-5">
+      <div class="container-fluid">
+        <span class="navbar-text">
+          마포구 동시계 창작 캐릭터
+        </span>
+      </div>
+    </nav>
+
+    <hr class="" />
 
     <div class="row my-5">
       <div class="col-7">
@@ -357,10 +380,13 @@
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#" _msthash="572117" _msttexthash="42761576">맨 위로 돌아가기</a></p>
-    <p _msthash="572234" _msttexthash="252162820">© 2017–2022 컴퍼니, 주식회사 · <a href="#" _istranslated="1">개인 정보 보호</a> ·
-      <a href="#" _istranslated="1">용어</a></p>
+    <p _msthash="572234" _msttexthash="252162820">© 2022 마포청년일자리사업단
+      <!-- <a href="#" _istranslated="1">copyright</a>
+      <a href="#" _istranslated="1">용어</a> -->
+    </p>
   </footer>
   </div>
+
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
