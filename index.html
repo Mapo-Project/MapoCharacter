@@ -5,21 +5,26 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>마포청년일자리사업단 동캐릭터</title>
-  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
 
-  <nav id="navbar-example2" class="navbar bg-light px-3">
+  <nav id="navbar-example2" class="navbar fixed-top navbar-dark bg-dark px-3">
     <a class="navbar-brand" href="#">동캐릭터</a>
     <ul class="nav nav-pills">
       <li class="nav-item">
         <a class="nav-link" href="#myCarousel">슬라이드</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#row row-cols-1 row-cols-md-4 g-16">캐릭터</a>
+        <a class="nav-link" href="#site">캐릭터</a>
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item">
+        <a class="nav-link" href="#sitex">동시계</a>
+      </li>
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
           aria-expanded="false">Dropdown</a>
         <ul class="dropdown-menu">
@@ -30,7 +35,7 @@
           </li>
           <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
         </ul>
-      </li>
+      </li> -->
     </ul>
   </nav>
   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
@@ -105,24 +110,26 @@
     </button>
   </div>
 
-  <nav class="text-center my-5">
-    <div class="container-fluid">
-      <span class="navbar-text">
-        마포구 동주민센터 창작 캐릭터
-      </span>
-    </div>
+  <nav id="site">
+    <nav class="text-center my-5">
+      <div class="container-fluid">
+        <span class="navbar-text">
+          마포구 동주민센터 캐릭터
+        </span>
+      </div>
+    </nav>
   </nav>
 
   <hr class="" />
 
-  <div class="container">
+  <div class="container-xl">
     <div id="row row-cols-1 row-cols-md-4 g-16">
       <div class="row row-cols-1 row-cols-md-4 g-16">
         <div class="col my-5">
           <div class="card h-100">
             <img src="./img/공덕동_곰덕.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">공덕동 곰덕 송예솔</h5>
+              <h5 class="card-title lh-base">공덕동 <br> 곰덕 송예솔</h5>
               <p class="card-text">
                 힘든 일도 웃으면서 해결할 만큼 <br> 긍정적인 성격
               </p>
@@ -133,7 +140,7 @@
           <div class="card h-100">
             <img src="./img/도하_보보.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">도화동 도하 보보 안민주</h5>
+              <h5 class="card-title lh-base">도화동 <br>도하 보보 안민주</h5>
               <p class="card-text">마포구 도화동 동주민센터 캐릭터 <br>도하와 보보입니다.</p>
             </div>
           </div>
@@ -142,7 +149,7 @@
           <div class="card h-100">
             <img src="./img/도화동_도숭이.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">도화동 도숭이 손수연</h5>
+              <h5 class="card-title lh-base">도화동 <br> 도숭이 손수연</h5>
               <p class="card-text">
                 복사골에서 자란 아기 복숭아 도숭이. <br>겉모습은 아가의 모습이지만 도화동을 지키고있다.
               </p>
@@ -153,18 +160,18 @@
           <div class="card h-100">
             <img src="./img/망원1동_먕먕이.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">망원1동 먕먕이 윤혜빈</h5>
+              <h5 class="card-title lh-base">망원1동<br> 먕먕이 윤혜빈</h5>
               <p class="card-text">
                 먕먕이는 사람들에게 많은 망원동을 소개하기위해 망원동 가이드로 오늘도 이곳저곳 돌아다닙니다.
               </p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col my-5">
           <div class="card h-100">
             <img src="./img/망원2동_알망.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">망원2동 알망 강혜원</h5>
+              <h5 class="card-title lh-base">망원2동<br> 알망 강혜원</h5>
               <p class="card-text">
                 멍하게 있는 것을 좋아해 어떤 생각을 하는지
                 예상 못하겠는 처진 눈을 가지고 있다.
@@ -174,22 +181,22 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col my-5">
           <div class="card h-100">
             <img src="./img/상암동_상상수리.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">상암동 상상수리 박혜민</h5>
+              <h5 class="card-title lh-base">상암동<br> 상상수리 박혜민</h5>
               <p class="card-text">
                 활발하고 밝은 성격으로 노는 것을 제일 좋아해요. 기발한 상상력으로 만든 콘텐츠로 많은 사람들의 마음을 사로잡는 인플루언서입니다.
               </p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col my-5">
           <div class="card h-100">
             <img src="./img/서강동_서호야.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">서강동 서호야 문정은</h5>
+              <h5 class="card-title lh-base">서강동<br> 서호야 문정은</h5>
               <p class="card-text">
                 무엇이든 보듬을 수 있는 따뜻한 성격을 가지고 있습니다.
                 식물 키우기를 좋아하고, 물멍을 즐깁니다.
@@ -197,11 +204,11 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col my-5">
           <div class="card h-100">
             <img src="./img/성산1동_산이.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">성산1동 산이 정혜인</h5>
+              <h5 class="card-title lh-base">성산1동<br> 산이 정혜인</h5>
               <p class="card-text">
                 #장난기 #에너지 #호기심 #독서왕 <br>#식물왕
               </p>
@@ -212,7 +219,7 @@
           <div class="card h-100">
             <img src="./img/성산2동_사니.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">성산2동 사니 최현수</h5>
+              <h5 class="card-title lh-base">성산2동<br> 사니 최현수</h5>
               <p class="card-text">
                 성산2동에 위치한 서울월드컵경기장은 그동안 상암동 소재로 잘 못 알려져 왔습니다.
                 이러한 오해를 바로잡고자, 월드컵경기장의 상징적인 요소인 축구공 형태와
@@ -225,7 +232,7 @@
           <div class="card h-100">
             <img src="./img/신수동_시니.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">신수동 시니 오승현</h5>
+              <h5 class="card-title lh-base">신수동<br> 시니 오승현</h5>
               <p class="card-text">
                 신수동의 활기차고 따뜻한 이미지를 주기 위한
                 옐로우 색상과 물결의 형태를 가지고 있습니다.
@@ -240,7 +247,7 @@
           <div class="card h-100">
             <img src="./img/용강동_용강이.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">용강동 용강이 곽나경</h5>
+              <h5 class="card-title lh-base">용강동<br> 용강이 곽나경</h5>
               <p class="card-text">
                 동글동글한 모습으로 순하고 착한용이지만 씩식하고 경의로운 마음을 가진 용감한 성격의 용강이 입니다.
               </p>
@@ -251,7 +258,7 @@
           <div class="card h-100">
             <img src="./img/염리동_소꼼이.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">염리동 소꼼이 김영윤</h5>
+              <h5 class="card-title lh-base">염리동<br> 소꼼이 김영윤</h5>
               <p class="card-text">
                 소꼼이는 소금의 옛우리말 소곰과 의태어 빼곰이 합쳐진 이름으로 건물사이 머리를 빼꼼내밀어 염리동을 곳곳을 보는것을 좋아합니다.
               </p>
@@ -259,44 +266,44 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col my-5">
           <div class="card h-100">
             <img src="./img/연남동_연보리.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">연남동 연보리 박지영</h5>
+              <h5 class="card-title lh-base">연남동<br> 연보리 박지영</h5>
               <p class="card-text">
                 소보루와 꽈배기를 귀엽게 캐릭터화하여 제작하였고 모자는 커피잔으로 대신하여 연남동의 카페와 베이커리 캐릭터라는점을 강조하였습니다.
               </p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col my-5">
           <div class="card h-100">
             <img src="./img/합정동_쩡이.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">합정동 쩡이 성지수</h5>
+              <h5 class="card-title lh-base">합정동<br> 쩡이 성지수</h5>
               <p class="card-text">
                 다양한 사람들이 오고가는 환승역인 합정의 특징을 살려 활기찬 성격을 가지고 있으며 합정동의 이곳저곳을 돌아다니면서 행복을 전파한다.
               </p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col my-5">
           <div class="card h-100">
             <img src="./img/아현동_양대복.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">아현동 아현뉴캐릭 양대복</h5>
+              <h5 class="card-title lh-base">아현동<br> 아현뉴캐릭 양대복</h5>
               <p class="card-text">
                 #산동네 #달동네 #뉴타운 #아이무덤 #슬럼화 #환골탈태 #미래 #밝은 #회색 #칙칙한
               </p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col my-5">
           <div class="card h-100">
             <img src="./img/서교동_김진섭.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">서교동 김진섭</h5>
+              <h5 class="card-title lh-base">서교동<br> 김진섭</h5>
               <p class="card-text">
                 서교동은 '서쪽의 다리'라는 뜻에서 유래된 이름입니다.
                 서쪽과 남쪽, 그리고 북쪽을 잇는 하나의 교량 역할을 해왔음을 의미합니다.
@@ -308,12 +315,63 @@
       </div>
     </div>
 
+
     <nav class="text-center my-5">
       <div class="container-fluid">
         <span class="navbar-text">
-          마포구 동시계 창작 캐릭터
+          마포구 캐릭터 굿즈
         </span>
       </div>
+    </nav>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner my-5">
+        <div class="carousel-item active">
+          <img src="./img/상암동_상상수리_굿즈.png" class="d-block w-100 h-100" alt="..." style="object-fit: contain;">
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: black; font-weight: bold;">상암동 상상수리 굿즈</h5>
+          </div> -->
+        </div>
+        <div class="carousel-item">
+          <img src="./img/서강동_서호야_굿즈.png" class="d-block w-100 h-100" alt="..." style="object-fit: contain;">
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: white; font-weight: bold;">서강동 서호야 굿즈</h5>
+          </div> -->
+        </div>
+        <div class="carousel-item">
+          <img src="./img/신수동_사니_굿즈.png" class="d-block w-100 h100" alt="..." style="object-fit: contain;">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/신수동_사니_굿즈1.png" class="d-block w-100 h100" alt="..." style="object-fit: contain;">
+        </div>
+        <!-- <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>  -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <nav id="sitex">
+      <nav class="text-center my-5">
+        <div class="container-fluid">
+          <span class="navbar-text">
+            마포구 동시계 캐릭터
+          </span>
+        </div>
+      </nav>
     </nav>
 
     <hr class="" />
@@ -386,8 +444,10 @@
     </p>
   </footer>
   </div>
-
-  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
 </body>
 
 </html>
