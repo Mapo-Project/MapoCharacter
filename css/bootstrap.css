@@ -13,11 +13,8 @@
 }
 
 .carousel-item {
-  height: 500px;
-}
-
-.navbar-text {
-  font-size: 25px;
+  height: 39vw;
+  object-fit: contain;
 }
 
 .card-img,
@@ -25,4 +22,8 @@
 .card-img-top {
   object-fit: contain;
   height: 300px;
+}
+
+.card-body {
+  border-top: 1px solid var(--bs-border-color-translucent);
 }
