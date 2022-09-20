@@ -13,17 +13,44 @@
 }
 
 .carousel-item {
-  height: 39vw;
-  object-fit: contain;
+  height: 40vw;
 }
 
-.card-img,
+/* .card-img,
 .card-img-bottom,
 .card-img-top {
+  height: 20.8vw;
   object-fit: contain;
-  height: 300px;
-}
+} */
 
 .card-body {
   border-top: 1px solid var(--bs-border-color-translucent);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  top: inherit;
+  width: inherit;
+}
+
+.carousel-control-next {
+  margin-bottom: 20vw;
+  right: 3.5vw;
+}
+
+.carousel-control-prev {
+  margin-bottom: 20vw;
+  left: 3.5vw;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 3rem;
+  height: 3rem;
+  filter: invert(53%) sepia(6%) saturate(4866%) hue-rotate(159deg) brightness(90%) contrast(74%);
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
