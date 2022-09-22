@@ -47,7 +47,8 @@
 .carousel-control-prev-icon {
   width: 3rem;
   height: 3rem;
-  filter: invert(53%) sepia(6%) saturate(4866%) hue-rotate(159deg) brightness(90%) contrast(74%);
+  filter: invert(53%) sepia(6%) saturate(4866%) hue-rotate(159deg)
+    brightness(90%) contrast(74%);
 }
 
 .portfolio-item {
@@ -97,12 +98,36 @@
   transition: opacity 0.25s ease;
 }
 
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category,
-#portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category,
-#portfolio .container-md .portfolio-box .portfolio-box-caption .project-category,
-#portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category,
-#portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category,
-#portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+#portfolio
+  .container-fluid
+  .portfolio-box
+  .portfolio-box-caption
+  .project-category,
+#portfolio
+  .container-sm
+  .portfolio-box
+  .portfolio-box-caption
+  .project-category,
+#portfolio
+  .container-md
+  .portfolio-box
+  .portfolio-box-caption
+  .project-category,
+#portfolio
+  .container-lg
+  .portfolio-box
+  .portfolio-box-caption
+  .project-category,
+#portfolio
+  .container-xl
+  .portfolio-box
+  .portfolio-box-caption
+  .project-category,
+#portfolio
+  .container-xxl
+  .portfolio-box
+  .portfolio-box-caption
+  .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -118,4 +143,31 @@
 #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name,
 #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
+}
+
+/* 마우스커서 */
+html {
+  cursor: none;
+}
+#drawing_line {
+  position: relative;
+  z-index: 1500;
+  height: 0;
+}
+#drawing_line > svg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+#drawing_line > svg .drawing_line_polyline {
+  fill: none;
+  stroke: #d2330f;
+  stroke-width: 2;
+}
+#drawing_line > svg .drawing_line_circle {
+  fill: #d2330f;
 }
