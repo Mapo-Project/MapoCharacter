@@ -47,8 +47,7 @@
 .carousel-control-prev-icon {
   width: 3rem;
   height: 3rem;
-  filter: invert(53%) sepia(6%) saturate(4866%) hue-rotate(159deg)
-    brightness(90%) contrast(74%);
+  filter: invert(53%) sepia(6%) saturate(4866%) hue-rotate(159deg) brightness(90%) contrast(74%);
 }
 
 .portfolio-item {
@@ -97,36 +96,12 @@
   transition: opacity 0.25s ease;
 }
 
-#portfolio
-  .container-fluid
-  .portfolio-box
-  .portfolio-box-caption
-  .project-category,
-#portfolio
-  .container-sm
-  .portfolio-box
-  .portfolio-box-caption
-  .project-category,
-#portfolio
-  .container-md
-  .portfolio-box
-  .portfolio-box-caption
-  .project-category,
-#portfolio
-  .container-lg
-  .portfolio-box
-  .portfolio-box-caption
-  .project-category,
-#portfolio
-  .container-xl
-  .portfolio-box
-  .portfolio-box-caption
-  .project-category,
-#portfolio
-  .container-xxl
-  .portfolio-box
-  .portfolio-box-caption
-  .project-category {
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-md .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
