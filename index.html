@@ -18,7 +18,11 @@
       alt="Winking Angel Flying Kaoani" style="position:absolute; top: 0px; right: 0px;" /></a>
 
   <nav id="navbar-example2" class="navbar fixed-top navbar-dark bg-dark px-3">
-    <img src="./img/시그니처 좌우조합_마포구.png" width="100" height="30" style="object-fit: contain;">
+    <a class="navbar-brand">
+      <img src="./img/시그니처 좌우조합_마포구.png" width="100" height="28" style="object-fit: contain;"
+        class="d-inline-block align-text-top">
+      <span style="margin-left: 20px;">2022 마포 캐릭터</span>
+    </a>
     <ul class="nav nav-pills">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
@@ -38,11 +42,21 @@
   </nav>
 
 
-  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-    data-bs-smooth-scroll="true" class="scrollspy-example rounded-3" tabindex="0">
-
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+      </div>
       <div class="carousel-inner my-5">
         <div class="carousel-item active mt-5">
           <img src="./img/성산2동_사니_굿즈.png" class="rounded mx-auto d-block w-75 h-100" alt="...">
@@ -63,12 +77,12 @@
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
         data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <span class="visually-hidden"></span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
         data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span class="visually-hidden"></span>
       </button>
     </div>
 
@@ -102,7 +116,7 @@
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image-->
-                  <img class="img-fluid rounded mb-5" src="./img/공덕동_곰덕_턴어라운드.png" alt="..." />
+                  <img class="img-fluid rounded" src="./img/공덕동_곰덕_턴어라운드.png" alt="..." />
                   <!-- Portfolio Modal - Text-->
                   <div class="d-flex flex-column">
                     <div class="mb-4 fw-bold fs-3">성격</div>
@@ -146,7 +160,7 @@
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image-->
-                  <img class="img-fluid rounded mb-5" src="./img/도화동_도하_보보_응용동작.png" alt="..." />
+                  <img class="img-fluid rounded" src="./img/도화동_도하_보보_응용동작.png" alt="..." />
                   <!-- Portfolio Modal - Text-->
                   <div class="d-flex flex-column">
                     <div class="mb-4 fw-bold fs-3">캐릭터 소개</div>
@@ -322,7 +336,7 @@
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image-->
-                  <img class="img-fluid rounded mb-5" src="./img/상암동_상상수리_턴어라운드.png" alt="..." />
+                  <img class="img-fluid rounded" src="./img/상암동_상상수리_턴어라운드.png" alt="..." />
                   <!-- Portfolio Modal - Text-->
                   <div class="d-flex flex-column">
                     <div class="mb-4 fw-bold fs-3">STORY</div>
@@ -369,7 +383,7 @@
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image-->
-                  <img class="img-fluid rounded mb-5" src="./img/서강동_서호야_턴어라운드.png" alt="..." />
+                  <img class="img-fluid rounded" src="./img/서강동_서호야_턴어라운드.png" alt="..." />
                   <div class="d-flex flex-column">
                     <div class="mb-4 fw-bold fs-3">기획의도</div>
                     <div class="mb-2">
@@ -538,7 +552,7 @@
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image-->
-                  <img class="img-fluid rounded mb-5" src="./img/용강동_용강이_턴어라운드.png" alt="..." />
+                  <img class="img-fluid rounded" src="./img/용강동_용강이_턴어라운드.png" alt="..." />
                   <!-- Portfolio Modal - Text-->
                   <div class="d-flex flex-column">
                     <div class="mb-4 fw-bold fs-3">용강동</div>
@@ -620,9 +634,9 @@
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image-->
-                  <img class="img-fluid rounded mb-5" src="./img/연남동_연보리_턴어라운드.png" alt="..." />
+                  <img class="img-fluid rounded" src="./img/연남동_연보리_턴어라운드.png" alt="..." />
                   <!-- Portfolio Modal - Text-->
-                  <div class="d-flex flex-column">
+                  <div class="d-flex flex-column" style="margin-top:-50px;">
                     <div class="mb-4 fw-bold fs-3">연남동 자료조사</div>
                     <div class="mb-2">
                       연남동 도심속의힐링 (살고싶은 동네 즐거움이 넘치는 동네)
@@ -664,9 +678,9 @@
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image-->
-                  <img class="img-fluid rounded mb-5" src="./img/합정동_쩡이_턴어라운드.png" alt="..." />
+                  <img class="img-fluid rounded" src="./img/합정동_쩡이_턴어라운드.png" alt="..." />
                   <!-- Portfolio Modal - Text-->
-                  <div class="d-flex flex-column">
+                  <div class="d-flex flex-column" style="margin-top:-50px;">
                     <div class="mb-4 fw-bold fs-3">컨셉 키워드</div>
                     <div class="mb-2">
                       합정동하면 떠오르는것들을 바탕으로 마인드맵을 제작하였는데
@@ -703,7 +717,7 @@
               <div class="row justify-content-center">
                 <div class="col-lg-8">
                   <!-- Portfolio Modal - Title-->
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-4">아현동 아현뉴캐릭</h2>
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-4">아현동 아현오덕스</h2>
                   <!-- Icon Divider-->
                   <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -777,19 +791,60 @@
         </div>
       </div>
     </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" aria-labelledby="portfolioModal17"
+      aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+              aria-label="Close"></button></div>
+          <div class="modal-body text-center pb-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-4">대흥동 홍승혜</h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image-->
+                  <img class="img-fluid rounded mb-5" src="./img/대흥동_홍승혜_턴어라운드.png" alt="..." />
+                  <!-- Portfolio Modal - Text-->
+                  <div class="d-flex flex-column">
+                    <div class="mb-4 fw-bold fs-3">지식을 담은 항아리</div>
+                    <div class="mb-2">
+                      도깨비 도움으로 새생명을 얻었다.
+                    </div>
+                    <div class="mb-4">
+                      100년동안 항아리 안에 차곡차곡 모아둔 지혜를 이용해 대흥동 고양이들과 함께 인근 주민을 도와주고 있다.
+                    </div>
+                  </div>
+                  <button class="btn btn-primary" data-bs-dismiss="modal">
+                    <i class="fas fa-xmark fa-fw"></i>
+                    닫기
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div id="portfolio-item">
-      <div class="container-xxl">
-        <div class="row row-cols-md-2 row-cols-lg-4 row-cols-1">
+      <div class="container-md">
+        <div class="row row-cols-md-2 row-cols-md-3 row-cols-1">
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                <img src="./img/공덕동캐릭터_송예솔.png" class="card-img-top" alt="..." />
+                <img src="./img/공덕동캐릭터_송예솔.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">공덕동 <br> 곰덕 송예솔</h5>
+                <h5 class="card-title lh-base">공덕동 <br><span class="text-secondary">곰덕 송예솔</span></h5>
                 <p class="card-text">
-                  힘든 일도 웃으면서 해결할 만큼 <br> 긍정적인 성격
+                  힘든 일도 웃으면서 해결할 만큼 긍정적인 성격
                 </p>
               </div>
             </div>
@@ -797,23 +852,23 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                <img src="./img/도화동캐릭터_안민주.png" class="card-img-top" alt="..." />
+                <img src="./img/도화동캐릭터_안민주.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">도화동 <br>도하 보보 안민주</h5>
-                <p class="card-text">마포구 도화동 동주민센터 캐릭터 <br>도하와 보보입니다.</p>
+                <h5 class="card-title lh-base">도화동 <br><span class="text-secondary">도하 보보 안민주</span></h5>
+                <p class="card-text">마포구 도화동 동주민센터 캐릭터 도하와 보보입니다.</p>
               </div>
             </div>
           </div>
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                <img src="./img/도화동캐릭터_손수연.png" class="card-img-top" alt="..." />
+                <img src="./img/도화동캐릭터_손수연.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">도화동 <br> 도숭이 손수연</h5>
+                <h5 class="card-title lh-base">도화동 <br><span class="text-secondary">도숭이 손수연</span></h5>
                 <p class="card-text">
-                  복사골에서 자란 아기 복숭아 도숭이. <br>겉모습은 아가의 모습이지만 도화동을 지키고있다.
+                  복사골에서 자란 아기 복숭아 도숭이. 겉모습은 아가의 모습이지만 도화동을 지키고있다.
                 </p>
               </div>
             </div>
@@ -821,10 +876,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                <img src="./img/망원1동 캐릭터_윤혜빈.png" class="card-img-top" alt="..." />
+                <img src="./img/망원1동 캐릭터_윤혜빈.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">망원1동<br> 먕먕이 윤혜빈</h5>
+                <h5 class="card-title lh-base">망원1동<br><span class="text-secondary">먕먕이 윤혜빈</span></h5>
                 <p class="card-text">
                   먕먕이는 사람들에게 많은 망원동을 소개하기위해 망원동 가이드로 오늘도 이곳저곳 돌아다닙니다.
                 </p>
@@ -834,10 +889,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                <img src="./img/망원2동 캐릭터_강혜원.png" class="card-img-top" alt="..." />
+                <img src="./img/망원2동 캐릭터_강혜원.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">망원2동<br> 알망 강혜원</h5>
+                <h5 class="card-title lh-base">망원2동<br><span class="text-secondary">알망 강혜원</span></h5>
                 <p class="card-text">
                   멍하게 있는 것을 좋아해 어떤 생각을 하는지
                   예상 못하겠는 처진 눈을 가지고 있다.
@@ -850,10 +905,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                <img src="./img/상암동 캐릭터_박혜민.png" class="card-img-top" alt="..." />
+                <img src="./img/상암동 캐릭터_박혜민.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">상암동<br> 상상수리 박혜민</h5>
+                <h5 class="card-title lh-base">상암동<br><span class="text-secondary">상상수리 박혜민</span></h5>
                 <p class="card-text">
                   활발하고 밝은 성격으로 노는 것을 제일 좋아해요. 기발한 상상력으로 만든 콘텐츠로 많은 사람들의 마음을 사로잡는 인플루언서입니다.
                 </p>
@@ -863,10 +918,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
-                <img src="./img/서강동캐릭터_문정은.png" class="card-img-top" alt="..." />
+                <img src="./img/서강동캐릭터_문정은.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">서강동<br> 서호야 문정은</h5>
+                <h5 class="card-title lh-base">서강동<br><span class="text-secondary">서호야 문정은</span></h5>
                 <p class="card-text">
                   무엇이든 보듬을 수 있는 따뜻한 성격을 가지고 있습니다.
                   식물 키우기를 좋아하고, 물멍을 즐깁니다.
@@ -877,10 +932,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
-                <img src="./img/성산1동캐릭터_정혜인.png" class="card-img-top" alt="..." />
+                <img src="./img/성산1동캐릭터_정혜인.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">성산1동<br> 산이 정혜인</h5>
+                <h5 class="card-title lh-base">성산1동<br><span class="text-secondary">산이 정혜인</span></h5>
                 <p class="card-text">
                   <strong>성산 1동 키워드</strong> #성산 #성미 #성미산 #마포중앙도서관 #자라나는 #새싹 #꿈나무 #가능성
                 </p>
@@ -890,10 +945,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal9">
-                <img src="./img/성산2동캐릭터_최현수.png" class="card-img-top" alt="..." />
+                <img src="./img/성산2동캐릭터_최현수.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">성산2동<br> 사니 최현수</h5>
+                <h5 class="card-title lh-base">성산2동<br><span class="text-secondary">사니 최현수</span></h5>
                 <p class="card-text">
                   월드컵경기장의 상징적인 요소인 축구공 형태와
                   붉은악마 뿔을 포인트로 성산2동 캐릭터 ‘사니’ 를 디자인했습니다.
@@ -904,10 +959,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal10">
-                <img src="./img/신수동캐릭터_오승현.png" class="card-img-top" alt="..." />
+                <img src="./img/신수동캐릭터_오승현.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">신수동<br> 시니 오승현</h5>
+                <h5 class="card-title lh-base">신수동<br><span class="text-secondary">시니 오승현</span></h5>
                 <p class="card-text">
                   신수동의 활기차고 따뜻한 이미지를 주기 위한
                   옐로우 색상과 물결의 형태를 가지고 있습니다.
@@ -921,10 +976,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal11">
-                <img src="./img/용강동캐릭터_곽나경.png" class="card-img-top" alt="..." />
+                <img src="./img/용강동캐릭터_곽나경.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">용강동<br> 용강이 곽나경</h5>
+                <h5 class="card-title lh-base">용강동<br><span class="text-secondary">용강이 곽나경</span></h5>
                 <p class="card-text">
                   동글동글한 모습으로 순하고 착한용이지만 씩식하고 경의로운 마음을 가진 용감한 성격의 용강이 입니다.
                 </p>
@@ -934,10 +989,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal12">
-                <img src="./img/염리동캐릭터_김영윤.png" class="card-img-top" alt="..." />
+                <img src="./img/염리동캐릭터_김영윤.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">염리동<br> 소꼼이 김영윤</h5>
+                <h5 class="card-title lh-base">염리동<br><span class="text-secondary">소꼼이 김영윤</span></h5>
                 <p class="card-text">
                   소꼼이는 소금의 옛우리말 소곰과 의태어 빼곰이 합쳐진 이름으로 건물사이 머리를 빼꼼내밀어 염리동을 곳곳을 보는것을 좋아합니다.
                 </p>
@@ -948,10 +1003,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal13">
-                <img src="./img/연남동캐릭터_박지영.png" class="card-img-top" alt="..." />
+                <img src="./img/연남동캐릭터_박지영.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">연남동<br> 연보리 박지영</h5>
+                <h5 class="card-title lh-base">연남동<br><span class="text-secondary">연보리 박지영</span></h5>
                 <p class="card-text">
                   소보루와 꽈배기를 귀엽게 캐릭터화하여 제작하였고 모자는 커피잔으로 대신하여 연남동의 카페와 베이커리 캐릭터라는점을 강조하였습니다.
                 </p>
@@ -961,10 +1016,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal14">
-                <img src="./img/합정동캐릭터_성지수.png" class="card-img-top" alt="..." />
+                <img src="./img/합정동캐릭터_성지수.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">합정동<br> 쩡이 성지수</h5>
+                <h5 class="card-title lh-base">합정동<br><span class="text-secondary">쩡이 성지수</span></h5>
                 <p class="card-text">
                   다양한 사람들이 오고가는 환승역인 합정의 특징을 살려 활기찬 성격을 가지고 있으며 합정동의 이곳저곳을 돌아다니면서 행복을 전파한다.
                 </p>
@@ -974,10 +1029,10 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal15">
-                <img src="./img/아현동 캐릭터_양대복.png" class="card-img-top" alt="..." />
+                <img src="./img/아현동 캐릭터_양대복.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">아현동<br> 아현오덕스 양대복</h5>
+                <h5 class="card-title lh-base">아현동<br><span class="text-secondary">아현오덕스 양대복</span></h5>
                 <p class="card-text">
                   #산동네 #달동네 #뉴타운 #아이무덤 #슬럼화 #환골탈태 #미래 #밝은 #회색 #칙칙한
                 </p>
@@ -987,13 +1042,26 @@
           <div class="col my-5">
             <div class="card h-100">
               <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal16">
-                <img src="./img/서교동캐릭터_김진섭.png" class="card-img-top" alt="..." />
+                <img src="./img/서교동캐릭터_김진섭.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title lh-base">서교동<br> 김진섭</h5>
+                <h5 class="card-title lh-base">서교동<br><span class="text-secondary">김진섭</span></h5>
                 <p class="card-text">
                   서교동은 '서쪽의 다리'라는 뜻에서 유래된 이름입니다.
                   서쪽과 남쪽, 그리고 북쪽을 잇는 하나의 교량 역할을 해왔음을 의미합니다.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col my-5">
+            <div class="card h-100">
+              <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal17">
+                <img src="./img/대흥동캐릭터_홍승혜.png" class="card-img-top w-75 d-block m-auto scale" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lh-base">대흥동<br><span class="text-secondary">다랑 & 하랑 홍승혜</span></h5>
+                <p class="card-text">
+                  항아리 요정들과 함께 인근 주민들을 도와주는 대흥동 지킴이
                 </p>
               </div>
             </div>
@@ -1005,7 +1073,7 @@
     <nav class="text-center my-5">
       <div class="container-fluid">
         <span class="navbar-text fs-2">
-          마포구 동시계 캐릭터
+          마포구 캐릭터
         </span>
       </div>
     </nav>
@@ -1013,7 +1081,7 @@
     <hr class="" />
 
     <div id="Character">
-      <div class="container">
+      <div class="container-md">
         <div class="row my-5 justify-content-center">
           <div class="col-7">
             <h2 class="mb-4 badge text-bg-success fs-2">마롱 & 포잉</h2>
@@ -1038,7 +1106,7 @@
 
         <div class="row my-5 justify-content-center">
           <div class="col-md-4 ml-auto mb-5">
-            <img src="./img/(1) 마포구 캐릭터/마포구 2조.jpg" alt="" class="w-100 rounded-circle" />
+            <img src="./img/(1) 마포구 캐릭터/마포구 2조.jpg" alt="" class="w-100" />
           </div>
           <div class="col-7">
             <h2 class="mb-4 badge text-bg-primary fs-2">마포버디즈</h2>
@@ -1066,7 +1134,7 @@
             </p>
           </div>
           <div class="col-md-4 ml-auto">
-            <img src="./img/(1) 마포구 캐릭터/마포구 3조.jpg" alt="" class="w-100 rounded-circle" />
+            <img src="./img/(1) 마포구 캐릭터/마포구 3조.jpg" alt="" class="w-100" />
           </div>
         </div>
 
@@ -1075,7 +1143,7 @@
 
         <div class="row my-5 justify-content-center">
           <div class="col-md-4 ml-auto mb-5">
-            <img src="./img/(1) 마포구 캐릭터/마포구 4조.jpg" alt="" class="w-100 rounded-circle" />
+            <img src="./img/(1) 마포구 캐릭터/마포구 4조.jpg" alt="" class="w-100 " />
           </div>
           <div class="col-7">
             <h2 class="mb-4 badge text-bg-primary fs-2">마둥 목련 단풍</h2>
@@ -1106,13 +1174,21 @@
       </div>
     </div>
 
-    <hr class="mb-4">
+    <nav class="text-center my-5">
+      <div class="container-fluid">
+        <span class="navbar-text fs-2">
+          마포구 동시계 캐릭터
+        </span>
+      </div>
+    </nav>
+
+    <hr class="" />
 
     <!-- 시계 팝업-->
     <div id="portfolio">
-      <div class="container-xxl">
+      <div class="container-md">
         <div class="row">
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/공덕동.jpg" title="공덕동 곰덕 송예솔">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/공덕동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1121,7 +1197,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/대흥동.jpg" title="대흥동 다랑 & 하랑 홍승혜">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/대흥동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1130,7 +1206,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/도화동(2).jpg" title="도화동 도하 보보 안민주">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/도화동(2).jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1139,7 +1215,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/도화동.jpg" title="도화동 도숭이 손수연">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/도화동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1148,7 +1224,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/망원1동.jpg" title="망원1동 먕먕이 윤혜빈">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/망원1동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1157,7 +1233,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/망원2동.jpg" title="망원2동 알망 강혜원">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/망원2동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1166,7 +1242,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/상암동.jpg" title="상암동 상상수리 박혜민">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/상암동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1175,7 +1251,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/서강동.jpg" title="서강동 서호야 문정은">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/서강동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1184,7 +1260,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/서교동.jpg" title="서교동 김진섭">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/서교동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1193,7 +1269,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/성산1동.jpg" title="성산1동 산이 정혜인">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/성산1동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1202,7 +1278,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/성산2동.jpg" title="성산2동 사니 최현수">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/성산2동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1211,7 +1287,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/신수동.jpg" title="신수동 시니 오승현">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/신수동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1220,7 +1296,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/아현동.jpg" title="아현동 아현오덕스 양대복">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/아현동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1229,7 +1305,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/연남동.jpg" title="연남동 연보리 박지영">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/연남동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1238,7 +1314,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/염리동.jpg" title="염리동 소꼼이 김영윤">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/염리동.jpg" alt="..." />
               <div class="portfolio-box-caption">
@@ -1247,12 +1323,21 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="./img/(2) 동캐릭터/용강동.jpg" title="용강동 용강이 곽나경">
               <img class="img-fluid col-12" src="./img/(2) 동캐릭터/용강동.jpg" alt="..." />
               <div class="portfolio-box-caption">
                 <div class="project-category text-while-50">용강동</div>
                 <div class="project-name">용강이 곽나경</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="./img/(2) 동캐릭터/합정동.jpg" title="합정동 쩡이 성지수">
+              <img class="img-fluid col-12" src="./img/(2) 동캐릭터/합정동.jpg" alt="..." />
+              <div class="portfolio-box-caption">
+                <div class="project-category text-while-50">합정동</div>
+                <div class="project-name">쩡이 성지수</div>
               </div>
             </a>
           </div>
@@ -1290,7 +1375,7 @@
 
   <!-- FOOTER -->
   <div id="footer">
-    <div class="container-xxl">
+    <div class="container-md">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
           <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
@@ -1314,12 +1399,13 @@
   </div>
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
+  <script src="js/mouse.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </body>
 
