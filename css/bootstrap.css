@@ -9,17 +9,11 @@
 }
 
 body {
-  cursor: url(https://cur.cursors-4u.net/anime/ani-9/ani892.ani),
-    url(https://cur.cursors-4u.net/anime/ani-9/ani892.png),
-    auto !important;
+  cursor: url('/img/apple-icon-72x72.png'), auto !important;
 }
 
 .nav-link {
   color: white;
-}
-
-.carousel-item {
-  height: 40vw;
 }
 
 .card-body {
@@ -137,13 +131,8 @@ body {
   -o-transform: scale(1.2);
 }
 
-.carousel-indicators {
-  margin-bottom: -2rem;
-}
-
-
 @media (max-width: 767px) {
-  #footer span {
+  .moblie-text {
     font-size: 14px;
   }
 
@@ -151,10 +140,15 @@ body {
     flex-direction: column-reverse;
     align-items: center;
   }
+
+  .nav-item.dropdown,
+  .nav-item {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
-  #footer span {
+  .moblie-text {
     font-size: 16px;
   }
 }
