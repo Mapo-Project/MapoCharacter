@@ -18,15 +18,11 @@ body {
   color: white;
 }
 
-.carousel-item {
-  height: 40vw;
-}
-
 .card-body {
   border-top: 1px solid var(--bs-border-color-translucent);
 }
 
-.carousel-control-next,
+/* .carousel-control-next,
 .carousel-control-prev {
   top: inherit;
   width: inherit;
@@ -40,7 +36,7 @@ body {
 .carousel-control-prev {
   margin-bottom: 20vw;
   left: 3.5vw;
-}
+} */
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
@@ -137,9 +133,9 @@ body {
   -o-transform: scale(1.2);
 }
 
-.carousel-indicators {
+/* .carousel-indicators {
   margin-bottom: -2rem;
-}
+} */
 
 
 @media (max-width: 767px) {
