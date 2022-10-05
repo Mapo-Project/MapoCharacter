@@ -102,9 +102,6 @@ body {
 #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category,
 #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category,
 #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -138,4 +135,26 @@ body {
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
+}
+
+.carousel-indicators {
+  margin-bottom: -2rem;
+}
+
+
+@media (max-width: 767px) {
+  #footer span {
+    font-size: 14px;
+  }
+
+  .row.my-md-5 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  #footer span {
+    font-size: 16px;
+  }
 }
