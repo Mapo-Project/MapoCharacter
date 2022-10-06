@@ -9,7 +9,7 @@
 }
 
 body {
-  cursor: url('/img/apple-icon-72x72.png'), auto !important;
+  cursor: url("../img/apple-icon-72x72.png"), auto !important;
 }
 
 .nav-link {
