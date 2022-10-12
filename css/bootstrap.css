@@ -58,6 +58,10 @@ body {
   -o-transform: scale(1.2);
 }
 
+/* dropdown */
+.dropdown-menu {
+  min-width: inherit;
+}
 
 /* portfolio-popup-style */
 #portfolio .container-fluid .portfolio-box,
@@ -147,6 +151,14 @@ body {
   .carousel-control-prev {
     margin-bottom: 25vw;
     left: 3.5vw;
+  }
+
+  .col-7.center {
+    text-align: center;
+  }
+
+  .nav.col-md-4.justify-content-end.list-unstyled {
+    margin: auto;
   }
 }
 
