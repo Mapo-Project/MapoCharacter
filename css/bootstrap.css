@@ -137,6 +137,25 @@ body {
 
 /* @media */
 
+@media (max-width: 414px) {
+  .card-text span {
+    display: block;
+  }
+
+  .card-text {
+    text-align: center;
+  }
+
+  .card-title.lh-base {
+    text-align: center;
+  }
+
+  .navbar-toggler.me-3 {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+}
+
 @media (max-width: 767px) {
   .moblie-text {
     font-size: 14px;
@@ -170,14 +189,17 @@ body {
   .nav.col-md-4.justify-content-end.list-unstyled {
     margin: auto;
   }
-
-  .card-text span {
-    display: block;
-  }
 }
 
-@media (min-width: 768px) {
-  
+@media (min-width: 712px) {
+  .navbar-toggler.me-3 {
+    display: none;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
 
   .col-md-4 {
     width: inherit;
